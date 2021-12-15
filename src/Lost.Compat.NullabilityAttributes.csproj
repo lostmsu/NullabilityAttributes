@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;netstandard2.1;net5.0</TargetFrameworks>
+		<LangVersion>10.0</LangVersion>
+		<Nullable>enable</Nullable>
+
+		<VersionPrefix>0.0.2</VersionPrefix>
+
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+
+		<!-- The following is recommended for public projects -->
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<DebugSymbols>true</DebugSymbols>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\LICENSE" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<!-- The following is recommended for public projects -->
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
+	</ItemGroup>
+</Project>

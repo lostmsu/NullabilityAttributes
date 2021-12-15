@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lost.Compat.NullabilityAttributes", "src\Lost.Compat.NullabilityAttributes.csproj", "{90C38A54-4280-4778-ADD6-442A57B32A43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repo", "Repo", "{D818370A-9A8D-451D-9EA5-46CD028891B2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullabilityAttributesTest.NET21", "test\NullabilityAttributesTest.NET21\NullabilityAttributesTest.NET21.csproj", "{B6DAF1D0-3FDE-4001-81B2-B8618A8CA32A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullabilityAttributesTest.NET20", "test\NullabilityAttributesTest.NET20\NullabilityAttributesTest.NET20.csproj", "{4529C208-17E1-468F-8E05-E5E8714C11EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90C38A54-4280-4778-ADD6-442A57B32A43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C38A54-4280-4778-ADD6-442A57B32A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C38A54-4280-4778-ADD6-442A57B32A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C38A54-4280-4778-ADD6-442A57B32A43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6DAF1D0-3FDE-4001-81B2-B8618A8CA32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6DAF1D0-3FDE-4001-81B2-B8618A8CA32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6DAF1D0-3FDE-4001-81B2-B8618A8CA32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6DAF1D0-3FDE-4001-81B2-B8618A8CA32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4529C208-17E1-468F-8E05-E5E8714C11EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4529C208-17E1-468F-8E05-E5E8714C11EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4529C208-17E1-468F-8E05-E5E8714C11EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4529C208-17E1-468F-8E05-E5E8714C11EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57ACE0FE-04CF-44D3-BC59-6149A3E1D4F3}
+	EndGlobalSection
+EndGlobal
